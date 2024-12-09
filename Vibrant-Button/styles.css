@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f97d1e, #f9a03f);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  overflow-x: hidden; /*| Prevents horizontal scrolling */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.vibrant-button {
+  position: relative;
+  padding: 20px 60px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #f97d1e, #f95e1e);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
+  box-shadow: 0 0 0 4px #fff; /*| White border to highlight the button */
+}
+
+.vibrant-button:hover {
+  transform: scale(1.1); /*| Scale effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 0 0 10px #fff; /*| Stronger shadow on hover */
+}
+
+.vibrant-button:active {
+  transform: scale(0.9); /*| Smaller scale effect on click */
+  box-shadow: 0 0 0 4px #fff; /*| Restores the initial shadow */
+}
+
+/*| Rotating bar around the button */
+.vibrant-button .rotating-bar {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  animation: rotate 3s linear infinite; /*| Infinite rotation */
+}
+
+/*| Rotation animation */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Footer */
+footer {
+  background: transparent; 
+  padding: 20px;
+  text-align: center;
+  margin-top: auto; 
+}
+
+.footer-link {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent; 
+  transition: border-bottom 0.3s ease, color 0.3s ease; 
+}
+
+.footer-link:hover {
+  border-bottom: 2px solid #ffff; /*| Orange underline on hover */
+  color: #fff; 
+}
