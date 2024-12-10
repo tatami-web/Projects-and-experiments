@@ -1,19 +1,6 @@
 # Project Repository: HTML, CSS, and JavaScript
 
-Welcome to this repository! Here, you will find multiple projects built with **HTML**, **CSS**, and **JavaScript**. 
-Each project is organized in its respective folder for better navigation and management.
-
-
-### Project List
-## Navigating the Repository
-
-You can navigate through the projects using the links below, or directly by exploring the repository's file structure.
-
-1. **[Current Time](./Current-Time/Current-Time.md)**  
-
-2. **[Vibrant-button](./Vibrant-Button/Vibrant-Button.md)**  
-  
-
+Welcome to this repository! Here, you will find multiple projects built with **HTML**, **CSS**, and **JavaScript**. Each project is organized in its respective folder for better navigation and management.
 
 ## About This Repository
 
@@ -33,12 +20,27 @@ You can navigate through the projects using the links below, or directly by expl
 
   - Steps to build or run the code.
 
+### Project List
+
+## Navigating the Repository
+
+You can navigate through the projects using the links below, or directly by exploring the repository's file structure.
+
+1. **[Current Time](./Current-Time/Current-Time.md)**  
+
+2. **[Vibrant button](./Vibrant-Button/Vibrant-Button.md)**  
+
+3. **[IP Flag Viewer](./IP-Flag-Viewer/IP-Flag-Viewer.md)**  
+
 ## Live Previews on CodePen
 
 Each folder will also be uploaded to CodePen for easier access and demonstration. Below are links to the live previews:
 
-- [Current Time](#)  
-- [Vibrant Button](#)  
+- **[Current Time](https://codepen.io/Tatami-web/pen/yyBOKdg)**  
+
+- **[Vibrant Button](https://codepen.io/Tatami-web/pen/ZYzQGrY)** 
+
+- **[IP Flag Viewer](https://codepen.io/Tatami-web/pen/NPKxqVZ)** 
 
 *(Links will be updated as projects are uploaded.)*
 
