@@ -32,6 +32,8 @@ You can navigate through the projects using the links below, or directly by expl
 
 3. **[IP Flag Viewer](./IP-Flag-Viewer/IP-Flag-Viewer.md)**  
 
+4. **[Digital Clock.md](.Digital-Clock/Digital-Clock.md)**  
+
 ## Live Previews on CodePen
 
 Each folder will also be uploaded to CodePen for easier access and demonstration. Below are links to the live previews:
@@ -41,6 +43,8 @@ Each folder will also be uploaded to CodePen for easier access and demonstration
 - **[Vibrant Button](https://codepen.io/Tatami-web/pen/ZYzQGrY)** 
 
 - **[IP Flag Viewer](https://codepen.io/Tatami-web/pen/NPKxqVZ)** 
+
+- **[Digital Clock](https://codepen.io/Tatami-web/pen/mybEOYB)** 
 
 *(Links will be updated as projects are uploaded.)*
 

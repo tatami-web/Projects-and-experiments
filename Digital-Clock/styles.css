@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1d1d1d;
+}
+
+.reloj {
+    font-size: 48px;
+    color: #fff;
+}
+
+#cambiar-fondo {
+    padding: 10px 20px;
+    border: 2.5px solid #8a8a8a;
+    border-radius: 5px;
+    background-color: #383838;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#cambiar-fondo:hover {
+    background-color: #474747;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: #bebebe;
+    text-decoration: underline;
+}
